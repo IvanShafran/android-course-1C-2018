@@ -43,7 +43,8 @@
 - Activity
 	- Создание
 	- Жизненный цикл
-	- Навигация
+	- BackStack
+- Intent
 - Базовые элементы UI
 	- FrameLayout, LinearLayout, RelativeLayout
 	- TextView, EditTextView, Button
