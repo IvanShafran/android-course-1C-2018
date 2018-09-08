@@ -29,7 +29,7 @@
 - Стабильная версия android studio на текущий момент: 3.1.4
 - Проект создавать без поддержки Kotlin
 - Версии в пустом проекте:
-	- MinSdk 16
+	- MinSdk 19
 	- compile и target Sdk 28
 	- Версии com.android.support 27.1.1
 
