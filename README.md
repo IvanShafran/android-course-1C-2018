@@ -49,6 +49,7 @@
 	- FrameLayout, LinearLayout, RelativeLayout
 	- TextView, EditTextView, Button
 - Связь UI и кода
+- Manifest
 
 
 ## Другие курсы и материалы
