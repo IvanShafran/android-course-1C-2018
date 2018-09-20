@@ -57,8 +57,11 @@
 - Базовые элементы UI
 - Связь UI и кода
 - Manifest
+
+[Презентация](https://docs.google.com/presentation/d/1JEtn6PhyxOtk3nC-ziENqALS6QFghndnoIhLpurMvyw/edit?usp=sharing)
+
 #### Домашнее задание
-В конце второй лекции
+В конце второй презентации
 
 #### Полезные ссылки:
 - [Про манифест](https://developer.android.com/guide/topics/manifest/manifest-intro?hl=ru)
