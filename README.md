@@ -12,6 +12,7 @@
 	- Из чего состоит проект
 	- Запуск проекта
 	- Изучение возможностей android studio
+	- Отладка
 
 [Презентация](https://docs.google.com/presentation/d/1pbVQlfDClwLfcEE5KBK0XSh4WCV-l1OLk04MIALyjS0/edit?usp=sharing)
 
@@ -44,21 +45,25 @@
 
 ### 2. Основные компоненты
 #### Разобранный материал:
+- Немного про support lib
 - Activity
 	- Создание
 	- Жизненный цикл
-	- BackStack
-- Intent
+	- Получение результата от другой активити
+	- Сохранение состояния
+- Intent(explicit vs implicit)
+- Про context
+- Немного про ресурсы
 - Базовые элементы UI
-	- FrameLayout, LinearLayout, RelativeLayout
-	- TextView, EditTextView, Button
 - Связь UI и кода
 - Manifest
 #### Домашнее задание
+В конце второй лекции
 
 #### Полезные ссылки:
 - [Про манифест](https://developer.android.com/guide/topics/manifest/manifest-intro?hl=ru)
-- 
+- [Жизненный цикл активити](https://developer.android.com/guide/components/activities?hl=ru)
+- [Про intent](https://developer.android.com/guide/components/intents-filters?hl=ru)
 
 ### 3. Ресурсы, работа со списками, разрешения
 
