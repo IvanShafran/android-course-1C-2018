@@ -1,3 +1,4 @@
+
 # Android курс МФТИ кафедра 1С (2018 осень)
 ## Полезные ссылки
 1. [Гугл папка со всеми презентациями](https://drive.google.com/open?id=1EMFbSURLKGtouXa6cPOOfOJ4z4pfCiKm)
@@ -68,7 +69,10 @@
 - [Жизненный цикл активити](https://developer.android.com/guide/components/activities?hl=ru)
 - [Про intent](https://developer.android.com/guide/components/intents-filters?hl=ru)
 
-### 3. Ресурсы, работа со списками, разрешения
+### 3. Ресурсы, работа со списками
+#### Полезные ссылки
+- [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview)
+- [Parcelable](http://developer.alexanderklimov.ru/android/theory/parcelable.php)
 
 ### 4. Фрагменты
 
