@@ -24,5 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(DynamicFragmentActivity.getIntent(MainActivity.this));
             }
         });
+
+        findViewById(R.id.demoButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(final View v) {
+                startActivity(DemoActivity.getIntent(MainActivity.this));
+            }
+        });
     }
 }

@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".StaticFragmentActivity" />
-        <activity android:name=".DynamicFragmentActivity"></activity>
+        <activity android:name=".DynamicFragmentActivity" />
+        <activity android:name=".DemoActivity"></activity>
     </application>
 
 </manifest>

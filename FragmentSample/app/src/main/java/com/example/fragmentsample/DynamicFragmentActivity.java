@@ -17,11 +17,13 @@ public class DynamicFragmentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dynamic_fragment);
 
-        getSupportFragmentManager()
-                .beginTransaction()
-                .add(R.id.dynamicFragmentActivityContainer, ExampleFragment.newInstance())
-                .addToBackStack(null)
-                .commit();
+        if (savedInstanceState == null) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.dynamicFragmentActivityContainer, ExampleFragment.newInstance())
+                    .addToBackStack(null)
+                    .commit();
+        }
     }
 
     @Override
