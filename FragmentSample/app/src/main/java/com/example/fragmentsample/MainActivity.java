@@ -1,7 +1,7 @@
 package com.example.fragmentsample;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,5 +18,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.dynamicFragmentButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(final View v) {
+                startActivity(DynamicFragmentActivity.getIntent(MainActivity.this));
+            }
+        });
     }
 }
