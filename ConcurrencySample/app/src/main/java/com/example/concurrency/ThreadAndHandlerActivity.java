@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -43,17 +44,17 @@ public class ThreadAndHandlerActivity extends AppCompatActivity implements Handl
             @Override
             public void run() {
                 final int value = TheMostImportantQuestionSolver.solve(5);
-                Message message = mainHandler.obtainMessage(POST_ANSWER_WHAT);
-                message.arg1 = value;
-                message.sendToTarget();
+//                Message message = mainHandler.obtainMessage(POST_ANSWER_WHAT);
+//                message.arg1 = value;
+//                message.sendToTarget();
 
-//                runOnUiThread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        textView.setText("Answer = " + value);
-//                        progressBar.setVisibility(View.INVISIBLE);
-//                    }
-//                });
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        textView.setText("Answer = " + value);
+                        progressBar.setVisibility(View.INVISIBLE);
+                    }
+                });
             }
         }.start();
     }

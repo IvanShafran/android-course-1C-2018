@@ -33,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.handlerAndHandlerButton:
                 intent = HandlerAndHandlerActivity.getIntent(this);
                 break;
+            case R.id.asyncTaskButton:
+                intent = AsyncTaskActivity.getIntent(this);
+                break;
             default:
                 throw new IllegalStateException();
         }
