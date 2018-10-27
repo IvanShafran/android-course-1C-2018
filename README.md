@@ -2,8 +2,7 @@
 # Android курс МФТИ кафедра 1С (2018 осень)
 ## Полезные ссылки
 1. [Гугл папка со всеми презентациями](https://drive.google.com/open?id=1EMFbSURLKGtouXa6cPOOfOJ4z4pfCiKm)
-2. [Таблица с баллами за ДЗ](https://docs.google.com/spreadsheets/d/1OKValu7tErLIYZFxJWiHrDgRO2fZmHk2ly_Qq8ItqFo/edit?usp=sharing)
-3. [Домашние задания](https://docs.google.com/presentation/d/1GJz0BTNwTWYVL9jJhwUZdN8n62mLwpieWSZAHhV03IA/edit?usp=sharing)
+2. [Домашние задания](https://docs.google.com/presentation/d/1GJz0BTNwTWYVL9jJhwUZdN8n62mLwpieWSZAHhV03IA/edit?usp=sharing)
 
 ## Другие курсы и материалы
 1. [Лекции технотрека](https://habr.com/company/mailru/blog/345252/)
