@@ -6,13 +6,14 @@ import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Binder;
 import android.os.Build;
 import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-public class SampleService extends Service {
+public class SampleService extends Service implements MusicService {
 
     private static final String TAG = "SampleService";
 
@@ -41,7 +42,24 @@ public class SampleService extends Service {
     @Nullable
     @Override
     public IBinder onBind(final Intent intent) {
-        return null;
+        return new MusicBinder();
+    }
+
+    public class MusicBinder extends Binder {
+
+        public MusicService getService() {
+            return SampleService.this;
+        }
+    }
+
+    @Override
+    public void play() {
+        Log.d(TAG, "play");
+    }
+
+    @Override
+    public void stop() {
+        Log.d(TAG, "stop");
     }
 
     @Override
@@ -54,6 +72,7 @@ public class SampleService extends Service {
             case FOREGROUND:
                 Log.d(TAG, "foreground");
                 showNotification();
+                stopForeground(false);
                 break;
         }
         return super.onStartCommand(intent, flags, startId);
