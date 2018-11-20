@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/firstItem"
+        android:icon="@drawable/ic_cloud_circle_black_24dp"
+        android:title="Cloud"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/secondItem"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
+        android:title="Music"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/thirdItem"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        android:title="Cut"
+        app:showAsAction="never" />
+
+</menu>
