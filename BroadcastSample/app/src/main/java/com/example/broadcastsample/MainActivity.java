@@ -17,11 +17,12 @@ public class MainActivity extends AppCompatActivity {
     private final BroadcastReceiver broadcastReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(final Context context, final Intent intent) {
-            Toast.makeText(MainActivity.this, "Connectivity changed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Airplane mode changed", Toast.LENGTH_SHORT).show();
         }
     };
 
     private final BroadcastReceiver localBroadcastReceiver = new BroadcastReceiver() {
+
         @Override
         public void onReceive(final Context context, final Intent intent) {
             Toast.makeText(MainActivity.this, "Local broadcast", Toast.LENGTH_SHORT).show();
